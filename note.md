@@ -1,4 +1,4 @@
-## The working flow of Development
+## The initial working flow of setup Development project
 -> create folder and npm init
 -> add readme file
 -> git init -> set new branch name
@@ -17,3 +17,17 @@
     "dev": "nodemon src/index.js"
   },
 ```
+-> adding Prettier setting in project
+    -> create .prettierrc file - a prettier configaration file
+    -> configuring standard prettier format
+
+
+# Proper professional production grade project structure setup
+### /src directory structure
+
+`/controllers`  - majorly functionlity 
+`/db`           - database connection logic
+`/middlewares`  - 
+`/models`       - 
+`/routes`       -
+`utils`         - 
